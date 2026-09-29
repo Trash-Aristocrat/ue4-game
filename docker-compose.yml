@@ -1,0 +1,7 @@
+services:
+  game:
+    build: .
+    container_name: ue4-game
+    ports:
+      - "80:80"
+    restart: unless-stopped
